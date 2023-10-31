@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>INGRESA CON TUS DATOS</h1>
+    <form method="POST" action="/api/users/login">
+    <label for="email">Email</label>
+    <input type="email" name="email" required>
+    <label for="password">Password</label>
+    <input type="password" name="password" required>
+    <button type="submit">Login</button>
+    </form>
+
+
+    <hr>
+
+    <div>
+    <h1>O INGRESA CON GITHUB</h1>
+    <a href="/api/sessions/githubcallback"> <button>INGRESAR CON GITHUB</button></a>
+    </div>
+
+
+
+</body>
+</html>
